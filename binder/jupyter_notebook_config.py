@@ -29,3 +29,8 @@ c.NotebookApp.default_url = '/lab-dev'
 
 import logging
 c.NotebookApp.log_level = logging.DEBUG
+
+c.NotebookApp.ResourceUseDisplay.mem_limit = 122949629
+c.NotebookApp.ResourceUseDisplay.track_cpu_percent = True
+c.NotebookApp.ResourceUseDisplay.cpu_limit = 2
+c.NotebookApp.ResourceUseDisplay.mem_warning_threshold=0.1
